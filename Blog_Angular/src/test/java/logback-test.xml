@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+  <!-- Errors were reported during translation. -->
+  <!-- Could not find transformer for com.jcabi.log.MulticolorLayout -->
+  <appender name="File" class="ch.qos.logback.core.FileAppender">
+    <File>logs.log</File>
+    <encoder>
+      <pattern>%d{dd/MMM/yyyy HH:mm:ss,SSS}- %c{1}: %m%n</pattern>
+    </encoder>
+  </appender>
+  <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+   <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder"> 
+       <pattern>%date %level [%thread] %logger %msg %n</pattern> 
+   </encoder>
+  </appender>
+  <root level="info">
+    <appender-ref ref="stdout"/>
+<!--     <appender-ref ref="stdout"/> -->
+  </root>
+</configuration>
