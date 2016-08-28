@@ -1,7 +1,0 @@
-13/Aug/2016 21:00:41- o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping: Mapped "{[/rest/accounts],methods=[POST]}" onto public org.springframework.http.ResponseEntity<tutorial.rest.resources.AccountResource> tutorial.rest.mvc.AccountController.createAccount(tutorial.rest.resources.AccountResource)
-13/Aug/2016 21:00:41- o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping: Mapped "{[/rest/accounts/{accountId}/blogs],methods=[POST]}" onto public org.springframework.http.ResponseEntity<tutorial.rest.resources.BlogResource> tutorial.rest.mvc.AccountController.createBlog(java.lang.Long,tutorial.rest.resources.BlogResource)
-13/Aug/2016 21:00:41- o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping: Mapped "{[/rest/accounts/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<tutorial.rest.resources.AccountResource> tutorial.rest.mvc.AccountController.getAccount(long)
-13/Aug/2016 21:00:42- o.s.w.s.m.m.a.RequestMappingHandlerAdapter: Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@6be968ce
-13/Aug/2016 21:00:42- o.s.m.w.MockServletContext: Initializing Spring FrameworkServlet ''
-13/Aug/2016 21:00:42- o.s.t.w.s.TestDispatcherServlet: FrameworkServlet '': initialization started
-13/Aug/2016 21:00:42- o.s.t.w.s.TestDispatcherServlet: FrameworkServlet '': initialization completed in 8 ms
