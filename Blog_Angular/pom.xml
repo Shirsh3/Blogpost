@@ -8,6 +8,7 @@
 	<name>Blog Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
+	
 		<spring.version>4.2.6.RELEASE</spring.version>
 	</properties>
 	<dependencies>
